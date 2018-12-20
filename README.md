@@ -1,4 +1,4 @@
-# Welcome to Curie
+# Curie
 This repository contains three datasets which are described in our paper **"Natural Language Question Answering over BI data using a Pipeline of Multiple Sequence tagging Networks"**.
 
 
