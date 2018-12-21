@@ -2,7 +2,7 @@
 This repository contains three datasets which are described in our paper **"Natural Language Question Answering over BI data using a Pipeline of Multiple Sequence tagging Networks"**.
 
 
-## WikiSQL dataset :
+## WikiSQL dataset (Annotated):
 In this paper we present a novel approach to parse the natural language sentence into an intermediate sketch which is basically a low level interpretation of the nl sentence. We identify the n-grams (uni, bi, tri, etc.) in the sentences which could be a column, value (entity) or aggregation (if applied). We use the sequence tagging technique to train the network. Since original [WikiSQL dataset](https://github.com/salesforce/WikiSQL) is not annotated like the way our models are trained, we present the annotated data `wikidataset.zip` in the following format which could be used in many other applications:
 
 ### Format
