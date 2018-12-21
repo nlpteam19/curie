@@ -1,0 +1,65 @@
+[
+  {
+    "node": "Employee",
+    "properties": [
+      "Employee ID",
+      "First Name",
+      "Last Name",
+      "Birth Date",
+      "Gender",
+      "Hire Date",
+      "Qualification",
+      "Age",
+      "Institute",
+      "Project Allocated",
+      "Manager Name",
+      "Designation",
+      "Experience"
+    ],
+    "relationships": [
+      {
+        "node": "Sub Department",
+        "name": "is_under"
+      },
+      {
+        "node": "Project",
+        "name": "allocated_to"
+      }
+    ]
+  },
+  {
+    "node": "Department",
+    "properties": [
+      "Department Number",
+      "Department Name"
+    ],
+    "relationships": []
+  },
+  {
+    "node": "Sub Department",
+    "properties": [
+      "Sub Department Number",
+      "Sub Department Name",
+      "Location"
+    ],
+    "relationships": [
+      {
+        "node": "Department",
+        "name": "child_of"
+      }
+    ]
+  },
+  {
+    "node": "Project",
+    "properties": [
+      "Project #",
+      "Project Name",
+      "Description",
+      "Start date",
+      "End date",
+      "Location",
+      "Head name"
+    ],
+    "relationships": []
+  }
+]

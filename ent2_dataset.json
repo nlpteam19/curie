@@ -1,0 +1,36 @@
+[
+  {
+    "node": "Employee",
+    "properties": [
+      "Employee #",
+      "First Name",
+      "Last Name",
+      "Birth Date",
+      "Marital Status",
+      "Gender",
+      "Hire Date",
+      "Address",
+      "Termination Date"
+    ],
+    "relationships": [
+      {
+        "node": "Store",
+        "name": "works_in"
+      }
+    ]
+  },
+  {
+    "node": "Store",
+    "properties": [
+      "Store Number",
+      "Store Name",
+      "Opening Time",
+      "Closing Time",
+      "Phone",
+      "Fax",
+      "Address",
+      "Manager Name"
+    ],
+    "relationships": []
+  }
+]
